@@ -1,1 +1,50 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/* Partie Creer */
+
+
+.vbox{
+	-fx-background-color: white;
+		
+}
+TextField{
+	-fx-background-color: lightgray;
+	
+}
+.btnEnregistrer{
+	-fx-background-color: #2F0A78;
+	-fx-font-weight:bold;
+	-fx-text-fill:white;
+	-fx-pref-width: 200px; 
+	-fx-pref-height: 50px; 
+	
+}
+.btnSupprimer{
+	-fx-background-color: #2F0A78;
+	-fx-font-weight:bold;
+	-fx-text-fill:white;
+	-fx-pref-width: 200px; 
+	-fx-pref-height: 30px; 
+	
+}
+Label{
+	-fx-text-fill:#2F0A78;
+	-fx-font-weight:bold;
+	-fx-font-size:15px;
+}
+MenuButton{
+	-fx-background-color: white;
+	-fx-background-radius:0;
+	-fx-border-color:#2F0A78;
+	-fx-alignment: center;
+	-fx-pref-width: 200px; 
+	-fx-pref-height: 50px; 
+	
+}
+.vbox2{
+
+	-fx-background-color: pink;	
+}
+HBox{
+	-fx-background-color: #2F0A78;
+}
